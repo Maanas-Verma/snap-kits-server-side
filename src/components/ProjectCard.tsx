@@ -1,5 +1,4 @@
 'use client';
-import { Button } from './ui/button';
 
 export function Cards(props: {
   title: string;
@@ -38,7 +37,6 @@ export function Cards(props: {
               </button>
             );
           })}
-          <Button variant={'outline'}>Space</Button>
         </div>
       </div>
     </div>
