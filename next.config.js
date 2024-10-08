@@ -13,7 +13,6 @@ module.exports = (phase, { defaultConfig }) => {
   }
 
   return {
-    output: 'export',
     images: {
       loader: 'custom',
       path: '/snap-kits',
